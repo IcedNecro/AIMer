@@ -1,0 +1,44 @@
+package com.checkpoint.aimer.utils;
+
+/**
+ * @author roman
+ */
+public class RegistrationRequest {
+	private String nickname;
+	private String password;
+	private String firstName;
+	private String secondName;
+
+	public String getNickname() {
+		return nickname;
+	}
+
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getSecondName() {
+		return secondName;
+	}
+
+	public void setSecondName(String secondName) {
+		this.secondName = secondName;
+	}
+
+}

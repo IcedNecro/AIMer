@@ -1,0 +1,7 @@
+To begin working with swagger, create a user first, executing curl comman like this:
+
+curl -H "Content-Type: application/json" -d '{"nickname":"IcedNecro", "password":"qwerty", "firstName": "Roman", "secondName":"Statkevich"}' http://localhost:8080/register
+
+after that, go to http://localhost:8080/swagger/index.html, enter login data (nickname and password)
+
+Application is using basic token authentication. To recieve auth token, simply send login and pasword as json to URL http://localhost:8080/login. It will return auth token in response header "Authorization". After that, just add that token to each request
